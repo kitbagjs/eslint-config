@@ -1,0 +1,24 @@
+{
+  "name": "@kitbag/eslint-config",
+  "type": "module",
+  "private": false,
+  "version": "1.0.1",
+  "description": "The official eslint-config for Kitbag",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kitbagjs/eslint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kitbagjs/eslint-config/issues"
+  },
+  "homepage": "https://github.com/kitbagjs/eslint-config#readme",
+  "dependencies": {
+    "@stylistic/eslint-plugin": "^2.10.1",
+    "eslint-plugin-vue": "^9.30.0",
+    "typescript-eslint": "^8.13.0"
+  },
+  "peerDependencies": {
+      "eslint": ">= 9"
+  }
+}
