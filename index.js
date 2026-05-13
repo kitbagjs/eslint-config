@@ -67,7 +67,7 @@ export default [
       '@stylistic/no-confusing-arrow': ['warn'],
       '@stylistic/object-curly-newline': ['warn', { multiline: true, consistent: true }],
       '@stylistic/object-curly-spacing': ['warn', 'always'],
-      '@stylistic/operator-linebreak': ['warn', 'none', { overrides: { '||': 'before', '&&': 'before' } }],
+      '@stylistic/operator-linebreak': ['warn', 'none', { overrides: { '||': 'before', '&&': 'before', '?': 'before', ':': 'before' } }],
       '@stylistic/object-property-newline': ['warn', { allowAllPropertiesOnSameLine: true }],
       '@stylistic/one-var-declaration-per-line': ['warn'],
       '@stylistic/quotes': ['warn', 'single', { avoidEscape: true }],
