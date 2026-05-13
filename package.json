@@ -14,11 +14,11 @@
   },
   "homepage": "https://github.com/kitbagjs/eslint-config#readme",
   "dependencies": {
-    "@stylistic/eslint-plugin": "^2.10.1",
-    "eslint-plugin-vue": "^9.30.0",
-    "typescript-eslint": "^8.13.0"
+    "@stylistic/eslint-plugin": "^5.10.0",
+    "eslint-plugin-vue": "^10.9.1",
+    "typescript-eslint": "^8.59.3"
   },
   "peerDependencies": {
-      "eslint": ">= 9"
+    "eslint": ">= 9"
   }
 }
