@@ -7,7 +7,7 @@ import stylistic from '@stylistic/eslint-plugin'
 export default [
   ...tseslint.configs.strictTypeChecked,
   ...tseslint.configs.stylisticTypeChecked,
-  stylistic.configs['recommended-flat'],
+  stylistic.configs.recommended,
   {
     files: [
       '**/*.{ts,vue}',
@@ -58,7 +58,6 @@ export default [
       '@stylistic/comma-spacing': ['warn'],
       '@stylistic/curly-newline': ['warn', { multiline: true, consistent: true }],
       '@stylistic/dot-location': ['warn', 'property'],
-      '@stylistic/func-call-spacing': ['warn'],
       '@stylistic/function-call-spacing': ['warn'],
       '@stylistic/implicit-arrow-linebreak': ['warn'],
       '@stylistic/key-spacing': ['warn', { afterColon: true }],
